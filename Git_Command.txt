@@ -18,6 +18,13 @@ git push -u origin main
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
+________________________________________________________________________________________
+________________________________________________________________________________________
+
+if you want to take 1st time take new repo. then
+1. get clone that repo -> git clone "Repo path copy and paste"
+2. Initalization ->git init -(git folder is created)
+
 
 
 If I want to add new file into exiting repo from local to remote(github)(Using terminal)
