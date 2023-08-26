@@ -20,9 +20,18 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 
 
 
-If I want to add new file into exiting repo from local to remote(github)
+If I want to add new file into exiting repo from local to remote(github)(Using terminal)
 get pull origin main
 git add SupervisedMachineLearning.docx
 git push -u origin main
 git commit -m"SupervisedNotes""
+git push
+
+
+or
+(if previous You have used "git push -u origin main" then there is only need to used git push)
+get pull origin main
+>git add Git_Command.txt
+git push
+git commit -m"modified GC.txt"
 git push
