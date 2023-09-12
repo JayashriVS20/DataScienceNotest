@@ -5,7 +5,7 @@
    - Use Cases: Customer segmentation, image compression, anomaly detection.
    - Evaluation Metrics: Silhouette score, Davies-Bouldin index (for clustering quality)
    - Preprocessing Techniques: Feature scaling, handling missing values, choosing the optimal K.
-   - Underfitting/Overfitting: Not applicable in the same sense as supervised learning, but finding the right K is crucial.
+   - Underfitting/Overfitting: Not applicable in the same sense as supervised learning, but finding the right K is crucial
    - Coding Example (Python):
 
 ```python
