@@ -52,16 +52,8 @@
    - Evaluation Metrics: Accuracy, Mean Squared Error (MSE), R-squared (regression)
    - Preprocessing Techniques: Feature scaling, handling missing values, determining the optimal K
    - Underfitting/Overfitting: Prone to underfitting with small K, overfitting with large K. Solution: Find an appropriate K.
-7. K-Means:
-   - Algorithm Type: Clustering
-   - Objective: Group data points into K clusters based on similarity.
-   - How it Works: K-Means partitions the data into clusters by minimizing the sum of squared distances between data points and their assigned cluster centroids.
-   - Use Cases: Customer segmentation, image compression, anomaly detection.
-   - Evaluation Metrics: Silhouette score, Davies-Bouldin index (for clustering quality)
-   - Preprocessing Techniques: Feature scaling, handling missing values, choosing the optimal K.
-   - Underfitting/Overfitting: Not applicable in the same sense as supervised learning, but finding the right K is crucial.
 
-8. Random Forest:
+7. Random Forest:
    - Algorithm Type: Ensemble Learning (Bagging)
    - Objective: Improve predictive accuracy and reduce overfitting.
    - How it Works: Random Forest consists of multiple decision trees and aggregates their predictions to make more robust and accurate predictions.
@@ -70,7 +62,7 @@
    - Preprocessing Techniques: Feature scaling, handling missing values, hyperparameter tuning.
    - Underfitting/Overfitting: Less prone to overfitting compared to individual decision trees.
 
-9. Dimensionality Reduction Algorithms:
+8. Dimensionality Reduction Algorithms:
    - Algorithm Types: Principal Component Analysis (PCA), t-Distributed Stochastic Neighbor Embedding (t-SNE), Linear Discriminant Analysis (LDA), etc.
    - Objective: Reduce the number of features while preserving as much useful information as possible.
    - How They Work: Dimensionality reduction techniques transform high-dimensional data into a lower-dimensional representation, often by finding new features that capture the most important variance.
@@ -79,7 +71,7 @@
    - Preprocessing Techniques: Standardization, normalization, handling missing values.
    - Underfitting/Overfitting: Typically not prone to underfitting or overfitting, but it may lose some information during reduction.
 
-10. Gradient Boosting Algorithms:
+9. Gradient Boosting Algorithms:
     - Algorithm Types: Gradient Boosting Machine (GBM), XGBoost, LightGBM, CatBoost, etc.
     - Objective: Combine multiple weak learners to create a strong learner.
     - How They Work: Gradient boosting builds an additive model by training weak learners sequentially to correct the errors of the previous models.
@@ -88,7 +80,7 @@
     - Preprocessing Techniques: Feature scaling, handling missing values, hyperparameter tuning.
     - Underfitting/Overfitting: Prone to overfitting with complex models. Solutions include adjusting regularization, using simpler models, or early stopping.
 
-11. AdaBoost (Adaptive Boosting):
+10. AdaBoost (Adaptive Boosting):
     - Algorithm Type: Ensemble Learning (Boosting)
     - Objective: Improve the classification performance of weak learners.
     - How it Works: AdaBoost assigns weights to data points and iteratively trains models that focus on misclassified points. It combines these models to make predictions.
