@@ -39,6 +39,5 @@ or
 (if previous You have used "git push -u origin main" then there is only need to used git push)
 get pull origin main
 >git add Git_Command.txt
-git push
 git commit -m"modified GC.txt"
 git push
