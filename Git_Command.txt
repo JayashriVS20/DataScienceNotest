@@ -30,15 +30,20 @@ if you want to take 1st time take new repo. then
 If I want to add new file into exiting repo from local to remote(github)(Using terminal)
 get pull origin main
 git add SupervisedMachineLearning.docx
-git push -u origin main
 git commit -m"SupervisedNotes""
-git push
+git push -u origin main 
 
 
 or
 (if previous You have used "git push -u origin main" then there is only need to used git push)
 get pull origin main
 >git add Git_Command.txt
-git push
 git commit -m"modified GC.txt"
-git push
+git push   
+
+If you have to add multiple file from local machine to remote
+1.git pull origin main
+2.git status
+3.git add .  ##add all files
+4.git commit 
+5.git push origin main
